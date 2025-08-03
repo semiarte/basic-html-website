@@ -1,0 +1,35 @@
+.curriculum_grid {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.curriculum_grid article {
+    border-right: 1px solid var(--color-gray-300);
+}
+
+.curriculum_grid article h2 {
+    font-size: 1rem;
+    padding-left: 1.5em;
+    padding-right: 1em;
+}
+
+.curriculum_grid article:last-child {
+    border: none;
+}
+
+.curriculum_projects {
+    padding-left: 0;
+}
+
+.curriculum_projects li {
+    list-style: none;
+    padding-top: .5em;
+    margin-bottom: .5em;
+    border-top: 1px solid var(--color-gray-300);
+}
+
+.curriculum_projects li a {
+    text-decoration: none;
+    padding-left: 1.5em;
+    padding-right: 1em;
+}
